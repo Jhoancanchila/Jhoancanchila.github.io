@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  height: 11vh;
+  display: flex;
+  justify-content: center;
+  font-family: "Comfortaa",
+    cursive;
+  font-size: 16px;
+
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+}
+
+.header__container--left {
+  display: flex;
+  align-items: center;
+}
+
+.header__container--left img {
+  width: 60px;
+  height: 60px;
+}
+
+.header__container--right {
+  /* border: 2px solid green; */
+  display: inline-flex;
+  align-items: center;
+}
+
+.header__container--right li {
+  text-decoration: none;
+  list-style: none;
+  padding: 8px;
+}
+
+.header__container--right li>a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.background {
+  background-image: url("./images/background.jpg");
+  object-fit: cover;
+  font-family: "Prompt",
+    sans-serif;
+  width: 100%;
+  height: 67vh;
+  display: flex;
+  position: relative;
+}
+
+.background__profile {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  border: 2px solid #00814b;
+  background-color: white;
+  border-radius: 10px;
+  width: 45%;
+  height: 23vh;
+  left: 180px;
+  top: 60px;
+}
+
+.background__profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  padding: 20px;
+}
+
+.background h1 {
+  color: black;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.background h3 {
+  color: #00814b;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 8px;
+}
+.quien-soy{
+  display: flex;
+  justify-content: center;
+  font-family: "Comfortaa",
+  cursive;
+}
+.quien-soy__container{
+  text-align: center;
+  max-width: 650px;
+  padding: 20px 0px 60px 0px;
+}
+.tittles{
+  font-family: "Prompt",
+  serif;
+  font-size: 30px;
+  margin: 25px 0px;
+  text-transform: uppercase;
+}
+.quien-soy__container p{
+  font-size: 15px;
+  line-height: 2.3;
+}
+
+@media only screen and (max-width:600px) {
+  .header__container--right {
+    display: none;
+  }
+  .background {
+    height: 55vh;
+  }
+  .background__profile {
+    display: block;
+    text-align: center;
+    max-width: 350px;
+    width: 90%;
+    height: 32vh;
+    left: 15px;
+  }
+
+  .background__profile img {
+    width: 90px;
+    height: 90px;
+    padding: 0;
+    margin-top: 15px;
+  }
+
+  .background__profile h1 {
+    font-size: 25px;
+  }
+
+  .background__profile h3 {
+    font-size: 18px;
+  }
+  .quien-soy__container{
+    padding: 20px 5px 60px 5px;
+  }
+}
