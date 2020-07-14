@@ -32,7 +32,6 @@
 }
 
 .header__container--right {
-  /* border: 2px solid green; */
   display: inline-flex;
   align-items: center;
 }
@@ -172,9 +171,26 @@
   margin-top: 50px;
 }
 .footer{
+  display: flex;
+  justify-content: center;
   background-color: #00814b;
-  text-align: center;
-  padding: 50px 0px;
+  padding: 30px 0px;
+}
+.footer__container{
+width: 800px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.footer__container span {
+  font-size: 24px;
+  font-family: "Comfortaa",
+  cursive;
+  color: white;
+}
+.footer_ontainer--redes a{
+  padding-right: 10px;
+  text-decoration: none;
 }
 
 
@@ -234,5 +250,12 @@
   .habilidades__container--animations {
     width: 100%;
     padding: 20px 0px;
+  }
+  .footer__container{
+    width: 100%;
+    flex-direction: column;
+  }
+  .footer_ontainer--redes{
+    padding-top: 20px;
   }
 }
