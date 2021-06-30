@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href=" https://fonts.googleapis.com/css?family=Comfortaa|Prompt&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" href="/images/logo-cube-rubik.png" type="image/x-icon">
   <title>Jhoan Canchila</title>
 </head>
 
@@ -22,12 +23,13 @@
           <a href="#Quien-soy">ACERCA DE MI</a>
         </li>
         <li>
-          <a href="#Proyectos">PROYECTOS</a>
-
+          <a href="#proyectos">PROYECTOS</a>
         </li>
         <li>
           <a href="#Contacto">CONTACTO</a>
-
+        </li>
+        <li>
+          <button><a href="./pdf/Jhoan Canchila CV.pdf">CV</a></button>
         </li>
       </div>
     </div>
@@ -35,17 +37,17 @@
   </header>
   <section class="background">
     <div class="background__profile">
-      <img src="./images/photo-profile.jpg"  alt="foto perfil">
+      <img src="./images/photo-profile.jpg" alt="foto perfil">
       <div class="background__profile--info-dev">
         <h1>Desarrollador Frontend</h1>
-        <h3>Android Developer</h3>
+        <h3>Developer jr React</h3>
       </div>
 
     </div>
   </section>
   <section class="quien-soy" id="Quien-soy">
     <div class="quien-soy__container">
-      <h1 class="tittles" >QUIÉN SOY</h1>
+      <h1 class="tittles">QUIÉN SOY</h1>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis debitis, velit, pariatur esse voluptates
         consequuntur in cum at eligendi obcaecati necessitatibus? Reiciendis deleniti optio sequi enim. Odit quaerat
         repudiandae enim!,Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis debitis, velit, pariatur esse
@@ -53,14 +55,82 @@
         quaerat repudiandae enim!</p>
     </div>
   </section>
+  <section class="projects" id="proyectos">
+    <div class="projects__container">
+      <div class="project__container_card">
+        <img src="./images/pugstagram.png" alt="pugstagram">
+        <div class="info">
+          <h3>pugstagram</h3>
+          <p>html/css</p>
+          <button>
+            <a target="_blank" href="https://github.com/Jhoancanchila/pugstagram">IR AL SITIO</a>
+          </button>
+        </div>
+      </div>
+      <div class="project__container_card">
+        <img src="./images/project-alkredito.png" alt="project-alkredito">
+        <div class="info">
+          <h3>Alkredito</h3>
+          <p>html/css/react/styled-components/redux</p>
+          <button>
+            <a target="_blank" href="https://Jhoancanchila.github.io/AlKredito">IR AL SITIO</a>
+          </button>
+        </div>
+      </div>
+      <div class="project__container_card">
+        <img src="./images/search-playlist.png" alt="search-playlist">
+        <div class="info">
+          <h3>PlayLists</h3>
+          <p>html/css/react/styled-components/redux</p>
+          <button>
+            <a target="_blank" href="https://search-playlist.netlify.app">IR AL SITIO</a>
+          </button>
+        </div>
+      </div>
+      <!-- <div class="project__container_card"></div>
+      <div class="project__container_card"></div> -->
+    </div>
+  </section>
   <section class="habilidades">
     <div class="habilidades__container">
       <div class="habilidades__container--text">
         <h1 class="tittles">Habilidades</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, assumenda consequatur repellat quae impedit, minus perspiciatis eos ducimus adipisci a ipsa corrupti illo sed nesciunt deleniti harum amet veniam beatae!</p>
+        <p>Mis principales habilidades están relacionadas con el dessarrollo frontend ,en el manejo de
+          html,css,javascript utilizadas para la creación de aplicaciones web escalables ,con la implementación de la
+          biblioteca de javascript react js y las diferentes librerías que se utilizan dentro de ésta.
+        </p>
       </div>
-      <div class="habilidades__container--animations">
-       <img src="./images/photo-profile.jpg" style="width: 300px; height: 300px; object-fit: cover;" alt="">
+      <div class="habilidades__container--tecnologias">
+        <div class="habilidades__tecnologias_cards">
+          <img src="./images/html.png" alt="html5">
+        </div>
+        <div class="habilidades__tecnologias_cards">
+          <img src="./images/css.png" alt="css3">
+        </div>
+        <div class="habilidades__tecnologias_cards">
+          <img src="./images/js.png" alt="javascript">
+
+        </div>
+        <div class="habilidades__tecnologias_cards">
+          <img src="./images/react.png" alt="react">
+
+        </div>
+        <div class="habilidades__tecnologias_cards">
+          <img src="./images/redux.png" alt="redux">
+
+        </div>
+        <div class="habilidades__tecnologias_cards">
+          <img src="./images/git.png" alt="git">
+
+        </div>
+        <div class="habilidades__tecnologias_cards">
+          <img src="./images/github.png" alt="github">
+
+        </div>
+        <div class="habilidades__tecnologias_cards">
+          <img src="./images/android.png" alt="android">
+
+        </div>
       </div>
     </div>
   </section>
@@ -69,22 +139,36 @@
       <h1 class="tittles" style="font-size: 30px;">
         contáctame
       </h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed laudantium debitis maiores explicabo accusamus facere minima molestias fugit commodi iusto reprehenderit </p>
+      <p>Gracias Por haber visitado mí portafolio,si deseas que haga parte de tú equipo de trabajo ponte en contacto
+        conmigo.</p>
       <br>
       <span>canchila.jhoan@gmail.com</span>
       <strong>(+57) 3132623930</strong>
     </div>
+    <div class="contact__redes--fixed">
+      <a href="https://www.facebook.com/jcanchilalazaro1" target="_blank"><img src="./images/facebook-old.svg"
+          alt="logo facebook"></a>
+      <a href="https://twitter.com/jcanchila1987" target="_blank"><img src="./images/twiter.svg" alt="logo twitter"></a>
+      <a href="https://www.instagram.com/jhoancanchila/?hl=en" target="_blank"><img src="./images/instagram.svg"
+          alt="logo instagram"></a>
+      <a href="https://github.com/Jhoancanchila" target="_blank"><img src="./images/gitHub.svg" alt="logo gitHub"></a>
+      <a href="https://www.linkedin.com/in/jhoan-canchila-l%C3%A1zaro-449a021b2/" target="_blank"><img
+          src="./images/linKedin.svg" alt="logo linKedin"></a>
+    </div>
   </section>
   <footer class="footer">
     <div class="footer__container">
-      <span>Jhoan Canchila Lázaro </span>
-      <div class="footer_ontainer--redes">
-        <a href="https://www.facebook.com/jcanchilalazaro1"><img src="./images/facebook-old.svg" alt="logo facebook"></a>
-        <a href="https://twitter.com/jcanchila1987"><img src="./images/twiter.svg" alt="logo twitter"></a>
-        <a href="https://www.instagram.com/jhoancanchila/?hl=en"><img src="./images/instagram.svg" alt="logo instagram"></a>
-        <a href="https://github.com/Jhoancanchila"><img src="./images/gitHub.svg" alt="logo gitHub"></a>
-        <a href="https://www.linkedin.com/in/jhoan-canchila-l%C3%A1zaro-449a021b2/"><img src="./images/linKedin.svg"
-            alt="logo linKedin"></a>
+      <span><a href="/">© Jhoan Canchila Lázaro 2021 </a></span>
+      <div class="footer_container--redes">
+        <a href="https://www.facebook.com/jcanchilalazaro1" target="_blank"><img src="./images/facebook-old.svg"
+            alt="logo facebook"></a>
+        <a href="https://twitter.com/jcanchila1987" target="_blank"><img src="./images/twiter.svg"
+            alt="logo twitter"></a>
+        <a href="https://www.instagram.com/jhoancanchila/?hl=en" target="_blank"><img src="./images/instagram.svg"
+            alt="logo instagram"></a>
+        <a href="https://github.com/Jhoancanchila" target="_blank"><img src="./images/gitHub.svg" alt="logo gitHub"></a>
+        <a href="https://www.linkedin.com/in/jhoan-canchila-l%C3%A1zaro-449a021b2/" target="_blank"><img
+            src="./images/linKedin.svg" alt="logo linKedin"></a>
       </div>
     </div>
   </footer>

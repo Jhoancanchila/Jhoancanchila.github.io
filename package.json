@@ -1,0 +1,17 @@
+{
+  "homepage":"https://Jhoancanchila.github.io/Portafolio",
+  "name": "personal-site",
+  "version": "1.0.0",
+  "description": "sitio web personal",
+  "keywords": [],
+  "author": "Jhoan Canchila<canchila.jhoan@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
+    "start":"live-server"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
